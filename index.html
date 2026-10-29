@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17191b">
+  <meta name="description" content="MODO: portafolio interactivo de diseño, desarrollo y experiencias digitales.">
+  <title>MODO — Portafolio Interactivo</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" aria-hidden="true">    
+<div class="page-loader__brand">FAVIORO<span>✳</span></div>
+
+    <div class="page-loader__ring"></div>
+    <span class="page-loader__caption">CARGANDO IDEAS...</span>
+  </div>
+
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Navegación principal">
+      <div class="container">
+<a class="navbar-brand brand" href="#inicio" aria-label="FARO, volver al inicio">FAVIORO<span class="brand-spark">✳</span><span class="brand-period">.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+            <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experimento">Experimento 3D</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            <li class="nav-item"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar a modo claro" aria-pressed="false"><span class="theme-toggle__icon" aria-hidden="true">◐</span> <span id="themeLabel">MODO LUZ</span></button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="heroTitle">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="row align-items-center gy-5">
+          <div class="col-sm-12 col-lg-7">
+            <div class="eyebrow hero-entrance"><span class="live-dot"></span> FAVIORO — Portafolio Interactivo | Favio Rosales <span class="eyebrow-divider">/</span> EDICIÓN 2026</div>
+            <h1 id="heroTitle" class="hero-title hero-entrance" style="--stagger: 90ms">IDEAS<br><em>QUE SE</em><br>MUEVEN<span class="hero-period">.</span></h1>
+            <p class="hero-description hero-entrance" style="--stagger: 170ms">Un espacio donde el diseño, el código y el movimiento se encuentran para crear experiencias fuera de lo común.</p>
+            <div class="hero-actions hero-entrance" style="--stagger: 240ms">
+              <a class="btn btn-acid hero-button" href="#proyectos">EXPLORAR PROYECTOS <span aria-hidden="true">↗</span></a>
+              <a class="hero-text-link" href="#contacto">HABLEMOS <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-lg-5">
+            <div class="hero-art" aria-label="Composición gráfica abstracta con elementos flotantes">
+              <div class="hero-art__halo"></div>
+              <div class="hero-art__disc hero-art__disc--back"></div>
+              <div class="hero-art__disc hero-art__disc--front"><span>MAKE<br>IT<br>MOVE<span class="asterisk">✳</span></span></div>
+              <div class="hero-art__label hero-art__label--top">EST. 2026 <span>↗</span></div>
+              <div class="hero-art__label hero-art__label--bottom">DESIGN + CODE + MOTION</div>
+              <div class="hero-art__cross" aria-hidden="true">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-end gy-3 hero-bottom">
+          <div class="col-sm-12 col-md-6"><span class="micro-label">DESLIZA PARA DESCUBRIR</span><span class="down-arrow" aria-hidden="true">↓</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Diseño, desarrollo, interacción y movimiento">
+      <div class="ticker__track" aria-hidden="true">
+        <span>DISEÑO</span><b>✳</b><span>DESARROLLO</span><b>✳</b><span>INTERACCIÓN</span><b>✳</b><span>MOVIMIENTO</span><b>✳</b>
+        <span>DISEÑO</span><b>✳</b><span>DESARROLLO</span><b>✳</b><span>INTERACCIÓN</span><b>✳</b><span>MOVIMIENTO</span><b>✳</b>
+      </div>
+    </div>
+
+    <section class="projects section-pad" id="proyectos" aria-labelledby="projectsTitle">
+      <div class="container">
+        <div class="row align-items-end gy-3 section-heading">
+          <div class="col-sm-12 col-md-8">
+            <span class="section-kicker">01 / GALERÍA INTERACTIVA</span>
+            <h2 class="section-title" id="projectsTitle">NO SOLO SE VEN.<br><em>SE SIENTEN.</em></h2>
+          </div>
+        </div>
+        <div class="row g-4 project-grid">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <article class="project-card motion-rotate" tabindex="0">
+              <div class="project-card__art art-orbita">
+                <div class="art-orbita__ring art-orbita__ring--one"></div>
+                <div class="art-orbita__ring art-orbita__ring--two"></div>
+                <div class="art-orbita__core">O<span>✳</span></div>
+                <span class="art-stamp">BRAND SYSTEM / 01</span>
+              </div>
+              <div class="project-card__meta"><span>01 / IDENTIDAD</span><span class="effect-tag">ROTATE ↺</span></div>
+              <div class="project-card__footer"><h3>ÓRBITA</h3><button class="project-open" data-bs-toggle="modal" data-bs-target="#projectModal" data-project="orbita" aria-label="Ver detalles de Órbita">↗</button></div>
+              <p>Una identidad que rompe con lo estático.</p>
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <article class="project-card motion-scale" tabindex="0">
+              <div class="project-card__art art-pulso">
+                <div class="art-pulso__screen">
+                  <div class="art-pulso__top"><span>PULSO / LIVE</span><span>● ● ●</span></div>
+                  <div class="art-pulso__number">85<span>%</span></div>
+                  <div class="art-pulso__bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+                  <span class="art-pulso__bottom">DATA THAT MOVES</span>
+                </div>
+              </div>
+              <div class="project-card__meta"><span>02 / DASHBOARD</span><span class="effect-tag">SCALE ⤢</span></div>
+              <div class="project-card__footer"><h3>PULSO</h3><button class="project-open" data-bs-toggle="modal" data-bs-target="#projectModal" data-project="pulso" aria-label="Ver detalles de Pulso">↗</button></div>
+              <p>Los datos también tienen personalidad.</p>
+            </article>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <article class="project-card motion-translate" tabindex="0">
+              <div class="project-card__art art-lumina">
+                <span class="art-lumina__star">✳</span>
+                <div class="art-lumina__device"><div class="art-lumina__top">LÚMINA <span>↗</span></div><div class="art-lumina__sun"></div><div class="art-lumina__caption">FUTURE<br>FEELS<br>BRIGHT.</div><div class="art-lumina__line"></div></div>
+                <span class="art-lumina__corner">WEB / EXPERIENCE</span>
+              </div>
+              <div class="project-card__meta"><span>03 / WEB</span><span class="effect-tag">TRANSLATE ↗</span></div>
+              <div class="project-card__footer"><h3>LÚMINA</h3><button class="project-open" data-bs-toggle="modal" data-bs-target="#projectModal" data-project="lumina" aria-label="Ver detalles de Lúmina">↗</button></div>
+              <p>Experiencias digitales con otra perspectiva.</p>
+            </article>
+          </div>
+        </div>
+        <p class="projects-hint"><span class="hint-spark">✳</span> TRES PROYECTOS. TRES TRANSFORMACIONES CSS. UNA SOLA IDEA: EXPERIMENTAR.</p>
+      </div>
+    </section>
+
+    <section class="depth section-pad" id="experimento" aria-labelledby="depthTitle">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-sm-12 col-lg-5">
+            <span class="section-kicker section-kicker--light">02 / EXPERIENCIA 3D</span>
+            <h2 class="depth-title" id="depthTitle">CAMBIA<br>EL <em>ÁNGULO.</em><br>CAMBIA<br>TODO<span>.</span></h2>
+            <p class="depth-copy">Una composición con profundidad real construida con perspectiva, capas y rotación en los ejes X e Y.</p>
+            <div class="depth-instruction"><span class="depth-instruction__icon" aria-hidden="true">↗</span><span>ACERCA EL CURSOR A LA TARJETA<br>Y OBSERVA SU MOVIMIENTO</span></div>
+          </div>
+          <div class="col-sm-12 col-lg-7">
+            <div class="depth-area">
+              <div class="depth-area__grid" aria-hidden="true"></div>
+              <div class="depth-card" tabindex="0" role="img" aria-label="Tarjeta tridimensional en perspectiva que rota al pasar el cursor">
+                <div class="depth-card__top"><span>EXPERIMENTAL OBJECT</span><span>03 / 03</span></div>
+                <div class="depth-card__orbit depth-card__orbit--outer"></div>
+                <div class="depth-card__orbit depth-card__orbit--inner"></div>
+                <div class="depth-card__sphere">M<span>✳</span></div>
+                <div class="depth-card__middle">BEYOND<br>THE FLAT.</div>
+                <div class="depth-card__bottom"><span>INTERACT / MOVE / DISCOVER</span><span>↗</span></div>
+              </div>
+              <div class="depth-area__coordinate depth-area__coordinate--left">X − 12.04</div>
+              <div class="depth-area__coordinate depth-area__coordinate--right">Y + 08.76</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contacto" aria-labelledby="contactTitle">
+      <div class="container">
+        <div class="row gy-5 gx-lg-5">
+          <div class="col-sm-12 col-lg-5">
+            <span class="section-kicker">03 / CONECTEMOS</span>
+            <h2 class="contact-title" id="contactTitle">¿UNA IDEA<br><em>EN MENTE?</em></h2>
+            <p class="contact-subtitle">Lo interesante comienza con una conversación. Cuéntame qué quieres crear.</p>
+            <div class="contact-sign"><span class="contact-sign__asterisk">✳</span><span>BUENAS IDEAS<br>EN MOVIMIENTO.</span></div>
+          </div>
+          <div class="col-sm-12 col-lg-7">
+            <form id="contactForm" class="contact-form needs-validation" novalidate>
+              <div class="row gy-3">
+                <div class="col-sm-12 col-md-6 mb-3"><label class="form-label" for="name">01 / TU NOMBRE</label><input class="form-control" type="text" id="name" name="name" autocomplete="name" placeholder="¿Cómo te llamas?" minlength="2" maxlength="70" required><div class="invalid-feedback">Escribe tu nombre (mínimo 2 caracteres).</div></div>
+                <div class="col-sm-12 col-md-6 mb-3"><label class="form-label" for="email">02 / TU CORREO</label><input class="form-control" type="email" id="email" name="email" autocomplete="email" placeholder="hola@ejemplo.com" maxlength="120" required><div class="invalid-feedback">Ingresa un correo válido.</div></div>
+                <div class="col-sm-12 mb-3"><label class="form-label" for="message">03 / TU MENSAJE</label><textarea class="form-control" id="message" name="message" rows="5" placeholder="Tengo una idea que quiero llevar más allá..." minlength="10" maxlength="1000" required></textarea><div class="invalid-feedback">Escribe al menos 10 caracteres.</div></div>
+                <div class="col-12"><div class="d-grid gap-2 d-sm-flex contact-actions"><button class="btn btn-primary contact-submit" id="submitButton" type="submit"><span class="button-text">PREPARAR MENSAJE</span><span class="button-spinner" aria-hidden="true"></span><span class="button-arrow" aria-hidden="true">↗</span></button><button class="btn btn-secondary contact-clear" type="reset">LIMPIAR FORMULARIO</button></div></div>
+              </div>
+              <div id="formResult" class="form-result" role="status" aria-live="polite" hidden><strong>¡MENSAJE PREPARADO!</strong><p>Esta es una demostración académica: el formulario valida los datos, pero no envía correos a un servidor.</p><pre id="messagePreview"></pre><button class="btn btn-outline-dark copy-button" id="copyButton" type="button">COPIAR MENSAJE <span aria-hidden="true">↗</span></button></div>
+              <p class="form-note">* DEMO FUNCIONAL SIN SERVIDOR DE ENVÍO.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="row align-items-center gy-2"><div class="col-sm-12 col-md-4"><a class="footer-brand" href="#inicio">FAVIORO<span>✳</span>.</a></div><div class="col-sm-12 col-md-4 text-md-center"><span>PORTAFOLIO INTERACTIVO © 2026</span></div><div class="col-sm-12 col-md-4 text-md-end"><a href="#inicio">VOLVER ARRIBA ↑</a></div></div></div></footer>
+
+  <div class="modal fade project-modal" id="projectModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><span class="modal-eyebrow" id="projectModalLabel">PROYECTO 01 / 03</span><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button></div><div class="modal-body"><h2 class="modal-title" id="projectModalTitle">ÓRBITA</h2><p id="projectModalDescription"></p><div class="modal-tech" id="projectModalTech"></div></div><div class="modal-footer"><button type="button" class="btn btn-dark" data-bs-dismiss="modal">SEGUIR EXPLORANDO ↗</button></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
